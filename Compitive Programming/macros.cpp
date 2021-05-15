@@ -10,11 +10,6 @@ int main(){
     loop(i,0,5){
         cout<<a[i]<<"";
     }
-    set<int> s = {2,5,6,8};
-    cout << s.size() << "\n"; // 4
-    for (auto x : s) {
-    cout << x << "\n";
-    }
-
+    
     return 0;
 }
