@@ -13,3 +13,6 @@
 
 ## Compitive Programming
 1. Macros for Loops
+
+## Dynamic Programming
+1. Subset Sum Problem
