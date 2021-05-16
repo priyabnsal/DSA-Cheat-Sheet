@@ -7,6 +7,10 @@
 3. Sort an Array of 0's, 1's & 2's.
 4. Kadanes Algorithms 😍😍
 
+## Stack
+1. Reverse a String
+2. Revese a Stack using Recursion.
+
 ## STL
 1. Maps
 2. Set
