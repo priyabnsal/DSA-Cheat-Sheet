@@ -10,6 +10,7 @@
 ## Stack
 1. Reverse a String
 2. Revese a Stack using Recursion.
+3. Stack Implementation using Linked List.
 
 ## STL
 1. Maps
@@ -20,3 +21,7 @@
 
 ## Dynamic Programming
 1. Subset Sum Problem
+
+## Graph
+1. Adjacency matrix
+2. Adjacency List
