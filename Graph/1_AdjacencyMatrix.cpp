@@ -31,28 +31,3 @@ main(int argc, char* argv[]) {
    add_edge(5, 4);
    displayMatrix(v);
 }
-//     int n,m;
-//     cout<<"Enter The No of Nodes";
-//     cin>>n;
-//     cout<<"Enter the no of Edges";
-//     cin>>m;
-
-//     int adj[n+1][n+1];
-
-//     for (int i = 0; i < m; i++)
-//     {
-//         int u,v;
-//         cout<<"Enter u";
-//         cin>>u;
-//         cout<<"Enter v";
-//         cin>>v;
-//         adj[u][v]=1;
-//         adj[v][u]=1;
-//     }
-//     for (int i = 0; i < m; i++)
-//     {
-        
-//     }
-    
-//     return 0;
-// }
