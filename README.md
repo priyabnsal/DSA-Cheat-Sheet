@@ -12,6 +12,9 @@
 2. Revese a Stack using Recursion.
 3. Stack Implementation using Linked List.
 
+## Queue
+1. Queue Implementation using Array.
+
 ## STL
 1. Maps
 2. Set
