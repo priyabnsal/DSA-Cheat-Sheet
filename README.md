@@ -40,10 +40,10 @@ int main(){
 2. Adjacency List
 
 ## Recursion
-1. 1 to N, N to 1 and Factorial.
+1. 1 to N, N to 1 and Factorial by Aditya Verma
 2. Height of Binary Tree.
 3. Sum of Arrat & Sum Of Digits.
-4. Sort An Array.
+4. Sort An Array by Aditya Verma
 
 # Resources for Interview Preparation
 
