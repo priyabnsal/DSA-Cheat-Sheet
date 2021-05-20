@@ -7,7 +7,8 @@ void insertAtBack(vector<int> &v, int temp){
         v.push_back(temp);
         return;
     }
-    int val= v[v.size()-1];
+    int val=v.back();
+    // int val= v[v.size()-1];
     v.pop_back();
     insertAtBack(v,temp);
     v.push_back(val);
@@ -16,7 +17,8 @@ void insertAtBack(vector<int> &v, int temp){
 
 void sortArray(vector<int> & v){
     if(v.size()==1) return ;
-    int temp=v[v.size()-1];
+    int temp=v.back();
+    // int temp=v[v.size()-1];
     v.pop_back();
     sortArray(v);
     insertAtBack(v,temp);
