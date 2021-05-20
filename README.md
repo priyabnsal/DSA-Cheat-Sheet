@@ -33,3 +33,4 @@
 1. 1 to N, N to 1 and Factorial.
 2. Height of Binary Tree.
 3. Sum of Arrat & Sum Of Digits.
+4. Sort An Array.
