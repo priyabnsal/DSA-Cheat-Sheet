@@ -1,16 +1,23 @@
 #include <iostream>
 using namespace std;
-int findSum(int A[], int N)
+
+//sum(n,a) => sum of elementa upto n index
+//sum(n,a) => a[n]+ sum(n-1,a)
+
+
+int sum(int n, int a[])
 {
-	if (N <=0)
+	if (n<0)
 		return 0;
-	return (findSum(A, N - 1) + A[N - 1]);
+	return sum(n-1,a)+a[n];
 }
 
 int main()
 {
-	int A[] = { 1, 2, 3};
-	int N = sizeof(A) / sizeof(A[0]);
-    cout<<findSum(A, N);
+	int n=5;
+	int a[n]={1,2,3,4,5};
+    // cout<<sum(n-1,a);
+    cout<<sum(2,a);
+
 	return 0;
 }
