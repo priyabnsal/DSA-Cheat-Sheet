@@ -28,3 +28,6 @@
 ## Graph
 1. Adjacency matrix
 2. Adjacency List
+
+## Recursion
+1. 1 to N, N to 1 and Factorial.
