@@ -17,6 +17,7 @@ int main(){
 3. Sort an Array of 0's, 1's & 2's.
 4. Kadanes Algorithms 😍😍
 5. Pair Sum Problem.
+6. Triplets Sum.
 
 ## Stack
 1. Reverse a String
