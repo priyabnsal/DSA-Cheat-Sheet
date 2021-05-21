@@ -11,11 +11,12 @@ int main(){
 # DSA-Cheat-Sheet 🔥🔥
 ### I am trying to add all the important question for placements in one place.
 ## Problems Coverd
-## Array😊
+## Array😊 => Array/Vector
 1. Reverse an Array
 2. Find the Max and Min element in an Array
 3. Sort an Array of 0's, 1's & 2's.
 4. Kadanes Algorithms 😍😍
+5. Pair Sum Problem.
 
 ## Stack
 1. Reverse a String
