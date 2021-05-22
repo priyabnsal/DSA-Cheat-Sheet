@@ -46,6 +46,8 @@ int main(){
 2. Height of Binary Tree.
 3. Sum of Arrat & Sum Of Digits.
 4. Sort An Array by Aditya Verma
+5. Static & Global Variable (Basics)
+
 
 # Resources for Interview Preparation
 
