@@ -49,7 +49,7 @@ int main(){
 5. Static & Global Variable (Basics)
 6. Tree Recursion Concept (Basics)
 7. Indirect Recursion (Basics) Ques linked to this is 3.Sort an Array
-
+8. Nested Recursion (Basics)
 # Resources for Interview Preparation
 
 ## Data Structures & Algorithms
