@@ -48,6 +48,7 @@ int main(){
 4. Sort An Array by Aditya Verma
 5. Static & Global Variable (Basics)
 6. Tree Recursion Concept (Basics)
+7. Indirect Recursion (Basics) Ques linked to this is 3.Sort an Array
 
 # Resources for Interview Preparation
 
