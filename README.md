@@ -47,7 +47,7 @@ int main(){
 3. Sum of Arrat & Sum Of Digits.
 4. Sort An Array by Aditya Verma
 5. Static & Global Variable (Basics)
-
+6. Tree Recursion Concept (Basics)
 
 # Resources for Interview Preparation
 
