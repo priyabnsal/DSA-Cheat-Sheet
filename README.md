@@ -50,6 +50,8 @@ int main(){
 6. Tree Recursion Concept (Basics)
 7. Indirect Recursion (Basics) Ques linked to this is 3.Sort an Array
 8. Nested Recursion (Basics)
+9. Power using Recursion Eg: 8^6
+
 # Resources for Interview Preparation
 
 ## Data Structures & Algorithms
