@@ -19,6 +19,7 @@ int power1(int m,int n)
 int main()
 {
     int r=power1(8,2);
+    cout<<"Power 8^2 is ";
     cout<<r;
     return 0;
 }
