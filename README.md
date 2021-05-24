@@ -51,6 +51,7 @@ int main(){
 7. Indirect Recursion (Basics) Ques linked to this is 3.Sort an Array
 8. Nested Recursion (Basics)
 9. Power using Recursion Eg: 8^6
+10. Taylor Serier
 
 # Resources for Interview Preparation
 
