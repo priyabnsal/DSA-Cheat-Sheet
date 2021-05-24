@@ -38,7 +38,7 @@ double e(int x, int n){
 }
 int main()
 {
-    printf("%lf \n",e1(2,10));
+    printf("%lf \n",e1(2,20));
     printf("%lf \n",e2(2,10));
     printf("%lf \n",e(2,10));
     return 0;
