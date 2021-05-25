@@ -26,11 +26,22 @@ void towerOfHanoi(int n, char A,char C, char B)
 	towerOfHanoi(n - 1, B, C, A);
 }
 
-// Driver code
+void toh(int n, char a, char b, char c){
+
+    if(n==0)
+    return;
+
+    //move n-1 disk from a(src) to b(helper)
+    toh(n-1,a,c,b);
+    cout<<"Shift Disk "<<n<<" from "<<a<<" to "<<c<<endl;
+    toh(n-1,b,a,c);
+}
+
 int main()
 {
 	int n; cin>>n;
-	towerOfHanoi(n, 'A', 'C', 'B'); // A, B and C are names of rods
+	// towerOfHanoi(n, 'A', 'C', 'B'); // A, B and C are 
+	toh(n, 'A', 'C', 'B');
 	return 0;
 }
 
