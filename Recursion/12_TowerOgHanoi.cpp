@@ -1,41 +1,37 @@
-#include<iostream>
+// #include<iostream>
+// using namespace std;
+// int main() {
+//    int n, a;
+//    cout<<"\nEnter the no of Disks: ";
+//    cin>>n;
+//    for (a = 1; a < (1 << n); a++) {
+//       cout<<"\nDisk Move from Peg "<<(a&a-1)%3 <<" to Peg "<<((a|a-1)+1)%3;
+//    }
+//    cout<<"\n";
+// }
+
+// C++ recursive function to
+// solve tower of hanoi puzzle
+#include <bits/stdc++.h>
 using namespace std;
-int main() {
-   int n, a;
-   cout<<"\nEnter the no of Disks: ";
-   cin>>n;
-   for (a = 1; a < (1 << n); a++) {
-      cout<<"\nDisk Move from Peg "<<(a&a-1)%3 <<" to Peg "<<((a|a-1)+1)%3;
-   }
-   cout<<"\n";
+
+void towerOfHanoi(int n, char A,char C, char B)
+{
+	if (n == 1){
+		cout << "Move disk 1 from " << A <<" to " << C<<endl;
+		return;
+	}
+	towerOfHanoi(n - 1, A, B, C);
+	cout << "Move disk " << n << " from " << A <<" to " << C << endl;
+	towerOfHanoi(n - 1, B, C, A);
 }
 
-// // C++ recursive function to
-// // solve tower of hanoi puzzle
-// #include <bits/stdc++.h>
-// using namespace std;
+// Driver code
+int main()
+{
+	int n; cin>>n;
+	towerOfHanoi(n, 'A', 'C', 'B'); // A, B and C are names of rods
+	return 0;
+}
 
-// void towerOfHanoi(int n, char from_rod,
-// 					char to_rod, char aux_rod)
-// {
-// 	if (n == 1)
-// 	{
-// 		cout << "Move disk 1 from rod " << from_rod <<
-// 							" to rod " << to_rod<<endl;
-// 		return;
-// 	}
-// 	towerOfHanoi(n - 1, from_rod, aux_rod, to_rod);
-// 	cout << "Move disk " << n << " from rod " << from_rod <<
-// 								" to rod " << to_rod << endl;
-// 	towerOfHanoi(n - 1, aux_rod, to_rod, from_rod);
-// }
-
-// // Driver code
-// int main()
-// {
-// 	int n = 4; // Number of disks
-// 	towerOfHanoi(n, 'A', 'C', 'B'); // A, B and C are names of rods
-// 	return 0;
-// }
-
-// // This is code is contributed by rathbhupendra
+// This is code is contributed by rathbhupendra
