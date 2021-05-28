@@ -52,6 +52,7 @@ int main(){
 8. Nested Recursion (Basics)
 9. Power using Recursion Eg: 8^6
 10. Taylor Serier
+11. Tower of Hanoi.(imp)
 
 # Resources for Interview Preparation
 
