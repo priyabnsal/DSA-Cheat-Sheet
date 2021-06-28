@@ -7,8 +7,7 @@ vector<int> pairSum(vector<int> &v,int sum){
     vector<int> result;
     unordered_set<int> s;
 
-    for (int i = 0; i < v.size(); i++)
-    {
+    for (int i = 0; i < v.size(); i++){
         int x=sum-v[i];
         if(s.find(x)!=s.end()){
             result.pb(x);
@@ -16,7 +15,6 @@ vector<int> pairSum(vector<int> &v,int sum){
             return result;
         }
     s.insert(v[i]);
-        
     }
     return {};
 }
@@ -34,5 +32,4 @@ int main(){
         cout<<"No such pair";
     else
         cout<<p[0]<<", "<<p[1]<<endl;
-    
 }
